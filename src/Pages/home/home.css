@@ -1,0 +1,211 @@
+@font-face {
+  font-family: "arcade.ttf";
+  src: url(../../Fonts/ARCADE_N.TTF);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Background*/
+.background {
+  background-image: url(../../img/Background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/*Animation Image*/
+.container-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flip {
+  width: 440px;
+  height: 420px;
+  margin: 20px;
+  float: left;
+  position: relative;
+  perspective: 1500px;
+}
+.flip div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 1.5s ease;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+.flip div.front {
+  background: url(../../img/logo.png);
+  background-size: cover;
+  z-index: 1;
+}
+.flip div:before {
+  content: attr(data-text);
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  line-height: 30px;
+  text-align: center;
+}
+.flip div.back {
+  background: url(../../img/logo.png);
+  background-size: cover;
+  z-index: 2;
+}
+.flip:hover div.front {
+  z-index: 2;
+}
+.flip:hover div.back {
+  z-index: 1;
+}
+.Y div.back {
+  transform: rotateY(180deg);
+}
+.Y:hover div.front {
+  transform: rotateY(180deg);
+}
+.Y:hover div.back {
+  transform: rotateY(0deg);
+}
+
+/*intro text*/
+
+.wrappertxt {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 15.3ch;
+  animation: typing 1.5s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: "arcade.ttf";
+  font-size: 24px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+h2 {
+  color: white;
+  font-family: "Open Sans";
+}
+
+h1 {
+  color: rgb(1, 188, 1);
+  font-family: "Arcade";
+  font-size: 24px;
+}
+
+/*Buttons*/
+
+.containerButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px;
+}
+
+.containerButton button {
+  padding: 10px;
+  width: 180px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: 3px solid rgb(0, 128, 0);
+  font-size: 18px;
+}
+
+button:hover {
+  cursor: pointer;
+  -webkit-animation: jello-horizontal 0.9s both;
+  animation: jello-horizontal 0.9s both;
+}
+
+@-webkit-keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}

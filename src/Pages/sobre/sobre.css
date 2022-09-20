@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "arcade.ttf";
+  src: url(../../Fonts/ARCADE_N.TTF);
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.background-sobre {
+  background-color: black;
+}
+
+.sobre h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "arcade.ttf";
+  color: #fff;
+  margin: 1rem;
+}
+
+.containerSobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+}
+.containerSobre p {
+  width: 25rem;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.containerSobre img {
+  width: 30rem;
+}
+
+.footer small {
+  margin-top: 2.8rem;
+}
