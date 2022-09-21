@@ -27,8 +27,8 @@ function Home() {
             <i class="fa-brands fa-github"></i> GitHub
           </button>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }
