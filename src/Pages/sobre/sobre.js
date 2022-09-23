@@ -12,16 +12,15 @@ function Sobre() {
           <h1>QUEM SOU EU?</h1>
           <div className="containerSobre">
             <p>
-              Me chamo Emerson Correia, Tenho 20 anos, sou Desenvolvedor Web,
-              comecei a estudar programação no início do ano de 2022, Sou
-              fascinado por computadores e sempre quis trabalhar na área de
-              tecnologia, mas como é uma grade de conhecimentos gigantes, não
-              sabia por onde começar, foi aí que conheci o desenvolvimento web,
-              que abriu minha mente e que me cativou a conhecer mais e mais,
-              desde então comecei a estudar fazendo vários cursos e projetos, no
-              começo foi complicado por não entender muito sobre programação,
-              mas foi com a repetição e correção que estou buscando a perfeição,
-              é isso que me faz continuar a querer aprender mais e mais.
+              Olá, o meu nome é emerson correia, tenho 20 anos, sou
+              Desenvolvedor Front-End Jr, comecei na área com intuito de ser
+              grande, de aprender todo o dia uma coisa nova, fica mais fácil
+              aprender quando está estudando algo que seja de próprio interesse,
+              foi assim que em menos de 6 meses de estudos consegui-me
+              especializar em ferramentas necessesarias para forma o front-end
+              como, HTML, CSS, Sass, Bootstrap, JavaScript e React. Atualmente
+              estou estudando o back-end, para me aperfeiçoar mais, mas ainda
+              tendo o front-end como objetivo de carreira.
             </p>
             <img src={profile} alt="" />
           </div>
