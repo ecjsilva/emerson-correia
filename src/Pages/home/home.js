@@ -18,10 +18,14 @@ function Home() {
 
       <div className="containerButton">
         <button>
-          <i class="fa-brands fa-linkedin-in"></i> Linkedin
+          <a href="https://www.linkedin.com/in/emerson-correia-a0a957243/">
+            <i class="fa-brands fa-linkedin-in"></i> Linkedin
+          </a>
         </button>
         <button>
-          <i class="fa-brands fa-github"></i> GitHub
+          <a href="https://github.com/ecjsilva">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
         </button>
       </div>
       <Footer />

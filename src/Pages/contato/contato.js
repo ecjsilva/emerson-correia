@@ -20,19 +20,32 @@ function Contato() {
         </div>
         <div className="containerContato">
           <button className="linkedin">
-            <i class="fa-brands fa-linkedin"></i> Linkedin
+            <i class="fa-brands fa-linkedin"></i>{" "}
+            <a href="https://www.linkedin.com/in/emerson-correia-a0a957243/">
+              Linkedin
+            </a>
           </button>
           <button className="github">
-            <i class="fa-brands fa-github"></i> GitHub
+            <i class="fa-brands fa-github"></i>{" "}
+            <a href="https://github.com/ecjsilva">GitHub</a>
           </button>
           <button className="instagram">
-            <i class="fa-brands fa-instagram"></i> Instagram
+            <i class="fa-brands fa-instagram"></i>{" "}
+            <a href="https://www.instagram.com/ecj.silva/?theme=dark">
+              Instagram
+            </a>
           </button>
           <button className="whatsapp">
-            <i class="fa-brands fa-whatsapp"></i> Whatsapp
+            <i class="fa-brands fa-whatsapp"></i>{" "}
+            <a href="https://api.whatsapp.com/send?phone=5581998024340">
+              Whatsapp
+            </a>
           </button>
           <button className="email">
-            <i class="fa-solid fa-envelope"></i> E-mail
+            <i class="fa-solid fa-envelope"></i>{" "}
+            <a href="mailto:juniorcorreiajuniorcorreia@outlook.com.br">
+              E-mail
+            </a>
           </button>
         </div>
         <Footer />
