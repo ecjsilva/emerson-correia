@@ -113,9 +113,9 @@ body {
     margin-top: 3rem;
   }
 }
-@media (max-width: 426px) {
+@media (max-width: 428px) {
   .contato h2 {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .containerContato button {
     font-size: 0.7rem;
