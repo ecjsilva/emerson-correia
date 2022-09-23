@@ -9,8 +9,11 @@ function Header() {
         <Link to="/" className="logo">
           EMERSON CORREIA <br /> <span>DESENVOLVEDOR FRONT-END</span>
         </Link>
-        <nav>
-          <ul>
+        <button onClick={toggleMenu} id="btn-mobile">
+          <span id="hamburguer"></span>
+        </button>
+        <nav id="nav">
+          <ul id="menu">
             <li>
               <Link to="/sobre">QUEM SOU EU?</Link>
             </li>
@@ -28,6 +31,11 @@ function Header() {
       </header>
     </>
   );
+}
+
+function toggleMenu(event) {
+  const nav = document.getElementById("nav");
+  nav.classList.toggle("active");
 }
 
 export default Header;

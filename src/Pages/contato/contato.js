@@ -8,9 +8,9 @@ function Contato() {
     <>
       <div className="contato">
         <Header />
-        <h1>CONTATO</h1>
+        <h1 className="title-contato">CONTATO</h1>
         <br />
-        <h1>FALE COMIGO NAS REDES SOCIAIS</h1>
+        <h2>FALE COMIGO NAS REDES SOCIAIS</h2>
         <div
           className="logoContato"
           data-aos="zoom-in"

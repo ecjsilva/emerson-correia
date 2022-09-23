@@ -38,3 +38,63 @@
 .footer small {
   margin-top: 2.8rem;
 }
+
+@media (max-width: 768px) {
+  .background-sobre {
+    height: 100vh;
+  }
+
+  .containerSobre img {
+    width: 19rem;
+  }
+  .containerSobre p {
+    width: 17rem;
+    font-size: 12px;
+  }
+  .sobre {
+    margin: 3rem;
+  }
+  .sobre h1 {
+    font-size: 1.39rem;
+  }
+  .footer small {
+    margin-top: 7rem;
+  }
+}
+
+@media (max-width: 428px) {
+  .containerSobre {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+  .background-sobre {
+    height: 141vh;
+  }
+  .containerSobre p {
+    width: 22rem;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 376px) {
+  .sobre h1 {
+    font-size: 1rem;
+  }
+  .footer small {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .containerSobre p {
+    width: 18rem;
+    font-size: 13px;
+  }
+  .footer small {
+    margin: 0;
+    font-size: 0.6rem;
+  }
+  .background-sobre {
+    height: 125vh;
+  }
+}

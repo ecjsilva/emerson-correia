@@ -38,6 +38,7 @@
   height: 15rem;
   display: flex;
   width: 28rem;
+
   cursor: not-allowed;
 }
 
@@ -69,5 +70,33 @@
   }
   90% {
     transform: translateY(-6.4px);
+  }
+}
+
+@media (max-width: 426px) {
+  .projeto a img,
+  .projeto-criacao img {
+    border-radius: 4px;
+    height: 12rem;
+    display: flex;
+    width: 24rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .projeto a img,
+  .projeto-criacao img {
+    border-radius: 4px;
+    height: 12rem;
+    display: flex;
+    width: 22rem;
+  }
+}
+@media (max-width: 321px) {
+  .projeto a img,
+  .projeto-criacao img {
+    border-radius: 4px;
+    height: 10rem;
+    width: 18rem;
   }
 }

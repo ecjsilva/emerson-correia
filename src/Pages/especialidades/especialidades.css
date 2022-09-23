@@ -59,3 +59,19 @@
     transform: rotateY(360deg);
   }
 }
+
+@media (max-width: 425px) {
+  .especialidades h1 {
+    font-size: 1rem;
+  }
+  .containerBarra {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerLOGO img {
+    width: 10rem;
+    height: 10rem;
+    margin-right: 0;
+  }
+}

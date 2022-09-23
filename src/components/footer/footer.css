@@ -3,5 +3,17 @@
   justify-content: center;
   align-items: center;
   color: #fff;
-  margin-top: 60px;
+  margin-top: 0.8rem;
+}
+
+@media (max-width: 360px) {
+  .footer small {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer small {
+    font-size: 0.6rem;
+  }
 }
