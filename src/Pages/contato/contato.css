@@ -2,6 +2,10 @@
   font-family: "arcade.ttf";
   src: url(../../Fonts/ARCADE_N.TTF);
 }
+
+body {
+  background-color: #000;
+}
 .contato {
   background-color: black;
 }
@@ -127,15 +131,26 @@
     width: 19.4rem;
   }
 }
+@media (max-width: 375px) {
+  .contato {
+    height: 130vh;
+  }
+}
+
+@media (max-width: 360px) {
+  .contato h2 {
+    font-size: 0.7rem;
+  }
+}
 
 @media (max-width: 320px) {
   .contato h2 {
     font-size: 0.7rem;
   }
   .contato {
-    height: 100vh;
+    height: 120vh;
   }
   .footer small {
-    margin-top: 14px;
+    margin: 10px;
   }
 }

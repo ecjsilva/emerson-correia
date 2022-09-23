@@ -68,20 +68,24 @@
     gap: 0;
   }
   .background-sobre {
-    height: 141vh;
+    height: 115vh;
   }
   .containerSobre p {
     width: 22rem;
     font-size: 15px;
   }
+  .footer small {
+    font-size: 0.7rem;
+    margin-top: 2rem;
+  }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 390px) {
   .sobre h1 {
     font-size: 1rem;
   }
   .footer small {
-    font-size: 0.8rem;
+    margin-top: 2rem;
   }
 }
 
@@ -95,6 +99,6 @@
     font-size: 0.6rem;
   }
   .background-sobre {
-    height: 125vh;
+    height: 151vh;
   }
 }
