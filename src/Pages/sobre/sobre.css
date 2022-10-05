@@ -6,6 +6,9 @@
 
 .background-sobre {
   background-color: black;
+  height: 93vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .sobre h1 {

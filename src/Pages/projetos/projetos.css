@@ -2,6 +2,10 @@
   background-image: url(../../img/Background3.png);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .sobre h1 {

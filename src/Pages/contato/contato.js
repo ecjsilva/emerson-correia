@@ -6,8 +6,9 @@ import logo from "../../img/logo.png";
 function Contato() {
   return (
     <>
+      <Header />
+
       <div className="contato">
-        <Header />
         <h1 className="title-contato">CONTATO</h1>
         <br />
         <h2>FALE COMIGO NAS REDES SOCIAIS</h2>
@@ -48,8 +49,8 @@ function Contato() {
             </a>
           </button>
         </div>
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 }

@@ -25,8 +25,8 @@ function Sobre() {
             <img src={profile} alt="" />
           </div>
         </div>
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 }
